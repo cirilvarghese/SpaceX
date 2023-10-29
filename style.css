@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items{
+    width: 100%;
+    
+}
+
+.navigation-items a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.section-a{
+    background: url(./images/section\ a.jpg );
+
+    height: 90vh;
+    /* position: relative; */
+}
+
+.navigation-items{
+    gap: 1rem;
+}
+
+.navigation-items a{
+    font-family: 'Familjen Grotesk', sans-serif;
+    letter-spacing: 0.100rem;
+}
+
+.first-text{
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+
+.section-a{
+   justify-content: flex-start;
+   align-items: center;
+   flex-direction: row;
+}
+
+.button-1{
+    width: 200px;
+    height: 60px;
+}
+
+.button{
+    border: 2px solid white;
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.section-b{
+    background: url(./images/section\ b.jpeg);
+    height: 80vh;
+   
+    justify-content: flex-start;
+   align-items: center;
+
+}
+
+.button-2 span{
+    position: relative;
+    z-index: 1;
+}
+
+.footer-section{
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.footer-section p{
+    color: #444444;
+    transition: 0.4s all ;
+    cursor: pointer;
+}
+
+.footer-section p:hover{
+    color: aliceblue;
+}
+
+.sec-a-heading h1{
+    margin-left: 80vh;
+    letter-spacing: 0.25rem;
+
+}
+
+.main-title
+{
+ 
+    transform: translate(-50%, -50%);
+    display: none;
+    margin-left: 50px;
+  
+}
